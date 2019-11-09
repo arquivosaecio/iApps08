@@ -25,5 +25,34 @@ class UtilString: NSObject {
         let num = Double(numero)
         return formatar(numero: num, casas: casas)
     }
+    
+    /*
+     Formatar data na opção que eu escolher
+     Autor: Aécio
+     Data Criação: 19/10/2019
+     Data última edição: 19/10/2019
+     */
+    func formatarData(data : Date , formato : String) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = formato
+        return dateFormatter.string(from: data)
+    }
+    
+    func formatarDataBrasil(data : Date ) -> String{
+        let formato = "dd/MM/yyyy"
+        return formatarData(data: data, formato: formato)
+    }
+    
+    func substituirCaracter(strInput : String , encontrar : String , substituir : String) -> String {
+        var str = strInput
+        while let range : Range<String.Index> = str.range(of: encontrar){
+            str.replaceSubrange(range, with: substituir)
+        }
+        return str
+    }
+    
+    func trocarVirgulaPorPonto(strInput : String) -> String {
+        return self.substituirCaracter(strInput: strInput, encontrar: ",", substituir: ".")
+    }
 
 }
