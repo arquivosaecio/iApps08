@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE3CD49422E0D8F9008B127A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CD49322E0D8F9008B127A /* AppDelegate.swift */; };
+		AE3CD49622E0D8F9008B127A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CD49522E0D8F9008B127A /* SceneDelegate.swift */; };
+		AE3CD49822E0D8F9008B127A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CD49722E0D8F9008B127A /* ViewController.swift */; };
+		AE3CD49B22E0D8F9008B127A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD49922E0D8F9008B127A /* Main.storyboard */; };
+		AE3CD49D22E0D8FB008B127A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD49C22E0D8FB008B127A /* Assets.xcassets */; };
+		AE3CD4A022E0D8FB008B127A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD49E22E0D8FB008B127A /* LaunchScreen.storyboard */; };
+		AE3CD4A922E0D93C008B127A /* UtilSoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CD4A822E0D93C008B127A /* UtilSoundPlayer.swift */; };
+		AE3CD4AC22E0D96C008B127A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3CD4AB22E0D96C008B127A /* AVFoundation.framework */; };
+		AE3CD4B322E0E009008B127A /* Foster The People.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4AE22E0E009008B127A /* Foster The People.m4a */; };
+		AE3CD4B422E0E009008B127A /* Hello.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4AF22E0E009008B127A /* Hello.m4a */; };
+		AE3CD4B522E0E009008B127A /* Pitbull Kesha.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4B022E0E009008B127A /* Pitbull Kesha.m4a */; };
+		AE3CD4B622E0E009008B127A /* Battletoads.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4B122E0E009008B127A /* Battletoads.m4a */; };
+		AE3CD4B722E0E009008B127A /* Duck Sauce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4B222E0E009008B127A /* Duck Sauce.m4a */; };
+		AE3CD4BF22E0E025008B127A /* battletoads.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4B922E0E025008B127A /* battletoads.jpg */; };
+		AE3CD4C022E0E025008B127A /* macaco-mao-na-boca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4BA22E0E025008B127A /* macaco-mao-na-boca.jpg */; };
+		AE3CD4C122E0E025008B127A /* foster the people.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4BB22E0E025008B127A /* foster the people.jpeg */; };
+		AE3CD4C222E0E025008B127A /* hello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4BC22E0E025008B127A /* hello.jpg */; };
+		AE3CD4C322E0E025008B127A /* kesha-pitbull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4BD22E0E025008B127A /* kesha-pitbull.jpg */; };
+		AE3CD4C422E0E025008B127A /* duck sauce.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE3CD4BE22E0E025008B127A /* duck sauce.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE3CD49022E0D8F9008B127A /* Projeto 18 - Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto 18 - Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3CD49322E0D8F9008B127A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE3CD49522E0D8F9008B127A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE3CD49722E0D8F9008B127A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE3CD49A22E0D8F9008B127A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE3CD49C22E0D8FB008B127A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE3CD49F22E0D8FB008B127A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE3CD4A122E0D8FB008B127A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3CD4A822E0D93C008B127A /* UtilSoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilSoundPlayer.swift; sourceTree = "<group>"; };
+		AE3CD4AB22E0D96C008B127A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AE3CD4AE22E0E009008B127A /* Foster The People.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Foster The People.m4a"; sourceTree = "<group>"; };
+		AE3CD4AF22E0E009008B127A /* Hello.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hello.m4a; sourceTree = "<group>"; };
+		AE3CD4B022E0E009008B127A /* Pitbull Kesha.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pitbull Kesha.m4a"; sourceTree = "<group>"; };
+		AE3CD4B122E0E009008B127A /* Battletoads.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Battletoads.m4a; sourceTree = "<group>"; };
+		AE3CD4B222E0E009008B127A /* Duck Sauce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Duck Sauce.m4a"; sourceTree = "<group>"; };
+		AE3CD4B922E0E025008B127A /* battletoads.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = battletoads.jpg; sourceTree = "<group>"; };
+		AE3CD4BA22E0E025008B127A /* macaco-mao-na-boca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "macaco-mao-na-boca.jpg"; sourceTree = "<group>"; };
+		AE3CD4BB22E0E025008B127A /* foster the people.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "foster the people.jpeg"; sourceTree = "<group>"; };
+		AE3CD4BC22E0E025008B127A /* hello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hello.jpg; sourceTree = "<group>"; };
+		AE3CD4BD22E0E025008B127A /* kesha-pitbull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kesha-pitbull.jpg"; sourceTree = "<group>"; };
+		AE3CD4BE22E0E025008B127A /* duck sauce.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "duck sauce.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE3CD48D22E0D8F9008B127A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3CD4AC22E0D96C008B127A /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE3CD48722E0D8F9008B127A = {
+			isa = PBXGroup;
+			children = (
+				AE3CD49222E0D8F9008B127A /* Projeto 18 - Music Player */,
+				AE3CD49122E0D8F9008B127A /* Products */,
+				AE3CD4AA22E0D96C008B127A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3CD49122E0D8F9008B127A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CD49022E0D8F9008B127A /* Projeto 18 - Music Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3CD49222E0D8F9008B127A /* Projeto 18 - Music Player */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CD4B822E0E012008B127A /* Imagens */,
+				AE3CD4AD22E0DF87008B127A /* Musicas */,
+				AE3CD4A722E0D927008B127A /* Util */,
+				AE3CD49322E0D8F9008B127A /* AppDelegate.swift */,
+				AE3CD49522E0D8F9008B127A /* SceneDelegate.swift */,
+				AE3CD49722E0D8F9008B127A /* ViewController.swift */,
+				AE3CD49922E0D8F9008B127A /* Main.storyboard */,
+				AE3CD49C22E0D8FB008B127A /* Assets.xcassets */,
+				AE3CD49E22E0D8FB008B127A /* LaunchScreen.storyboard */,
+				AE3CD4A122E0D8FB008B127A /* Info.plist */,
+			);
+			path = "Projeto 18 - Music Player";
+			sourceTree = "<group>";
+		};
+		AE3CD4A722E0D927008B127A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CD4A822E0D93C008B127A /* UtilSoundPlayer.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AE3CD4AA22E0D96C008B127A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CD4AB22E0D96C008B127A /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE3CD4AD22E0DF87008B127A /* Musicas */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CD4B122E0E009008B127A /* Battletoads.m4a */,
+				AE3CD4B222E0E009008B127A /* Duck Sauce.m4a */,
+				AE3CD4AE22E0E009008B127A /* Foster The People.m4a */,
+				AE3CD4AF22E0E009008B127A /* Hello.m4a */,
+				AE3CD4B022E0E009008B127A /* Pitbull Kesha.m4a */,
+			);
+			path = Musicas;
+			sourceTree = "<group>";
+		};
+		AE3CD4B822E0E012008B127A /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CD4B922E0E025008B127A /* battletoads.jpg */,
+				AE3CD4BE22E0E025008B127A /* duck sauce.jpeg */,
+				AE3CD4BB22E0E025008B127A /* foster the people.jpeg */,
+				AE3CD4BC22E0E025008B127A /* hello.jpg */,
+				AE3CD4BD22E0E025008B127A /* kesha-pitbull.jpg */,
+				AE3CD4BA22E0E025008B127A /* macaco-mao-na-boca.jpg */,
+			);
+			path = Imagens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE3CD48F22E0D8F9008B127A /* Projeto 18 - Music Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3CD4A422E0D8FB008B127A /* Build configuration list for PBXNativeTarget "Projeto 18 - Music Player" */;
+			buildPhases = (
+				AE3CD48C22E0D8F9008B127A /* Sources */,
+				AE3CD48D22E0D8F9008B127A /* Frameworks */,
+				AE3CD48E22E0D8F9008B127A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Projeto 18 - Music Player";
+			productName = "Projeto 18 - Music Player";
+			productReference = AE3CD49022E0D8F9008B127A /* Projeto 18 - Music Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE3CD48822E0D8F9008B127A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Aecio;
+				TargetAttributes = {
+					AE3CD48F22E0D8F9008B127A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = AE3CD48B22E0D8F9008B127A /* Build configuration list for PBXProject "Projeto 18 - Music Player" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE3CD48722E0D8F9008B127A;
+			productRefGroup = AE3CD49122E0D8F9008B127A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE3CD48F22E0D8F9008B127A /* Projeto 18 - Music Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE3CD48E22E0D8F9008B127A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3CD4A022E0D8FB008B127A /* LaunchScreen.storyboard in Resources */,
+				AE3CD4C022E0E025008B127A /* macaco-mao-na-boca.jpg in Resources */,
+				AE3CD4C122E0E025008B127A /* foster the people.jpeg in Resources */,
+				AE3CD4C322E0E025008B127A /* kesha-pitbull.jpg in Resources */,
+				AE3CD4B522E0E009008B127A /* Pitbull Kesha.m4a in Resources */,
+				AE3CD4C222E0E025008B127A /* hello.jpg in Resources */,
+				AE3CD49D22E0D8FB008B127A /* Assets.xcassets in Resources */,
+				AE3CD4C422E0E025008B127A /* duck sauce.jpeg in Resources */,
+				AE3CD4B622E0E009008B127A /* Battletoads.m4a in Resources */,
+				AE3CD4B322E0E009008B127A /* Foster The People.m4a in Resources */,
+				AE3CD4B422E0E009008B127A /* Hello.m4a in Resources */,
+				AE3CD4BF22E0E025008B127A /* battletoads.jpg in Resources */,
+				AE3CD4B722E0E009008B127A /* Duck Sauce.m4a in Resources */,
+				AE3CD49B22E0D8F9008B127A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3CD48C22E0D8F9008B127A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3CD4A922E0D93C008B127A /* UtilSoundPlayer.swift in Sources */,
+				AE3CD49822E0D8F9008B127A /* ViewController.swift in Sources */,
+				AE3CD49422E0D8F9008B127A /* AppDelegate.swift in Sources */,
+				AE3CD49622E0D8F9008B127A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE3CD49922E0D8F9008B127A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3CD49A22E0D8F9008B127A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE3CD49E22E0D8FB008B127A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3CD49F22E0D8FB008B127A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE3CD4A222E0D8FB008B127A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE3CD4A322E0D8FB008B127A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE3CD4A522E0D8FB008B127A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZFD248T5D;
+				INFOPLIST_FILE = "Projeto 18 - Music Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "professoraecio.Projeto-18---Music-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE3CD4A622E0D8FB008B127A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZFD248T5D;
+				INFOPLIST_FILE = "Projeto 18 - Music Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "professoraecio.Projeto-18---Music-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE3CD48B22E0D8F9008B127A /* Build configuration list for PBXProject "Projeto 18 - Music Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3CD4A222E0D8FB008B127A /* Debug */,
+				AE3CD4A322E0D8FB008B127A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3CD4A422E0D8FB008B127A /* Build configuration list for PBXNativeTarget "Projeto 18 - Music Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3CD4A522E0D8FB008B127A /* Debug */,
+				AE3CD4A622E0D8FB008B127A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE3CD48822E0D8F9008B127A /* Project object */;
+}
