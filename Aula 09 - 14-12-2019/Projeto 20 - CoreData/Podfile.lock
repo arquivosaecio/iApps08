@@ -1,0 +1,16 @@
+PODS:
+  - JMMaskTextField (0.1.0)
+
+DEPENDENCIES:
+  - JMMaskTextField
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JMMaskTextField
+
+SPEC CHECKSUMS:
+  JMMaskTextField: ceb969a49a313663a041c6413a0284d921f65ba4
+
+PODFILE CHECKSUM: d0a81f3eece8a053bcbef0bafbc02a498f0beb2a
+
+COCOAPODS: 1.5.3
