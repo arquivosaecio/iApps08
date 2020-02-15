@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>PZFD248T5D.Professor-Aecio.Projeto-21---WebService</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>PZFD248T5D.Professor-Aecio.Projeto-21---WebService</string>
+	</array>
+</dict>
+</plist>

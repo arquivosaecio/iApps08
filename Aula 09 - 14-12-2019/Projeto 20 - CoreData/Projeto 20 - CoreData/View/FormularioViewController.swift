@@ -105,7 +105,7 @@ class FormularioViewController: UtilAppDelegateViewController , UITextFieldDeleg
             app.utilAlerta.mensagem(titulo: "Atenção!", mensagem: "Todos os campos são obrigatórios!", view: self)
             return
         }
-        app.clienteResult = app.clienteDao.excluir(chaveBusca: CORE_DATA_CLIENTE.FONE.rawValue, valor: nomeTextField.text!)
+        app.clienteResult = app.clienteDao.excluir(chaveBusca: CORE_DATA_CLIENTE.NOME.rawValue, valor: nomeTextField.text!)
         if(app.clienteResult.executadoComSucesso){
             app.utilAlerta.mensagem(titulo: "Sucesso!", mensagem: "Cliente excluído!", view: self)
         }else{

@@ -1,0 +1,6 @@
+framework module Pods_Projeto_20___CoreData {
+  umbrella header "Pods-Projeto 20 - CoreData-umbrella.h"
+
+  export *
+  module * { export * }
+}

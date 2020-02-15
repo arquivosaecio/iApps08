@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "fce2fb0892c90901c907d095b4c71a6a"
+build_time: [1581788329, 169101000]
+inputs:
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/Util/UtilAlerta.swift": [1581787507, 400935366]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/View/FormularioViewController.swift": [1581788318, 4822418]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/Util/UtilTime.swift": [1581787507, 401287870]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/Controller/ClienteDao.swift": [1581787507, 399447008]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/ENUM/CORE_DATA.swift": [1581787507, 399689690]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/ViewController.swift": [1581787507, 402090389]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/AppDelegate.swift": [1581787507, 398421091]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/Result/ClienteResult.swift": [1581787507, 400598752]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/Entidade/Cliente.swift": [1581787507, 399885460]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/Util/UtilAppDelegateViewController.swift": [1581787507, 401104196]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/Projeto 20 - CoreData/View/ClientesViewController.swift": [1581787507, 401528790]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/build/Projeto 20 - CoreData.build/Debug-iphonesimulator/Projeto 20 - CoreData.build/DerivedSources/CoreDataGenerated/Projeto20CoreData/ClienteStored+CoreDataClass.swift": [1581787947, 719702982]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/build/Projeto 20 - CoreData.build/Debug-iphonesimulator/Projeto 20 - CoreData.build/DerivedSources/CoreDataGenerated/Projeto20CoreData/ClienteStored+CoreDataProperties.swift": [1581787947, 720507294]
+  "/Users/mastermac/X11/iApps08/Aula 09 - 14-12-2019/Projeto 20 - CoreData/build/Projeto 20 - CoreData.build/Debug-iphonesimulator/Projeto 20 - CoreData.build/DerivedSources/CoreDataGenerated/Projeto20CoreData/Projeto20CoreData+CoreDataModel.swift": [1581787947, 717966451]

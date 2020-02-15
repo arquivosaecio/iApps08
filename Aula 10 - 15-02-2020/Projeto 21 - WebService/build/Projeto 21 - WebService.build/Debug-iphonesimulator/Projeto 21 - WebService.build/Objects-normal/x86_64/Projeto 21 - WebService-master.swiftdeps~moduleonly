@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "4acf97238b12096828da71c0d5510be3"
+build_time: [1581795301, 735308000]
+inputs:
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/Util/UtilAlerta.swift": [1581791057, 930000000]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/Entidade/Contato.swift": [1581791058, 70000000]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/View/TodosViewController.swift": [1581791058, 80000000]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/View/Cell/ContatoTableViewCell.swift": [1581791058, 90000000]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/Conexao/Conexao.swift": [1581791058, 150000000]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/Util/UtilString.swift": [1581791057, 930000000]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/ViewController.swift": [1581789434, 438121200]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/ENUM/ROTAS.swift": [1581791057, 960000000]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/AppDelegate.swift": [1581795040, 910459711]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/Controller/ContatoDao.swift": [1581791058, 0]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/View/FormularioViewController.swift": [1581795292, 330657991]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/Result/ContatoResult.swift": [1581791057, 910000000]
+  "/Users/mastermac/X11/iApps08/Aula 10 - 15-02-2020/Projeto 21 - WebService/Projeto 21 - WebService/Util/UtilAppDelegateViewController.swift": [1581791057, 920000000]

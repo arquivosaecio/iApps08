@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB9807F23F8687A005AC993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB9807E23F8687A005AC993 /* AppDelegate.swift */; };
+		AEB9808323F8687A005AC993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB9808223F8687A005AC993 /* ViewController.swift */; };
+		AEB9808623F8687A005AC993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB9808423F8687A005AC993 /* Main.storyboard */; };
+		AEB9808823F8687D005AC993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB9808723F8687D005AC993 /* Assets.xcassets */; };
+		AEB9808B23F8687D005AC993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB9808923F8687D005AC993 /* LaunchScreen.storyboard */; };
+		AEB9809823F87291005AC993 /* AgendaWebContatoExcluir.php in Resources */ = {isa = PBXBuildFile; fileRef = AEB9809323F87290005AC993 /* AgendaWebContatoExcluir.php */; };
+		AEB9809923F87291005AC993 /* AgendaWebContatoInserir.php in Resources */ = {isa = PBXBuildFile; fileRef = AEB9809423F87291005AC993 /* AgendaWebContatoInserir.php */; };
+		AEB9809A23F87291005AC993 /* AgendaWebContatoBuscar.php in Resources */ = {isa = PBXBuildFile; fileRef = AEB9809523F87291005AC993 /* AgendaWebContatoBuscar.php */; };
+		AEB9809B23F87291005AC993 /* AgendaWebContatoAtualizar.php in Resources */ = {isa = PBXBuildFile; fileRef = AEB9809623F87291005AC993 /* AgendaWebContatoAtualizar.php */; };
+		AEB9809C23F87291005AC993 /* AgendaWebContatoTodos.php in Resources */ = {isa = PBXBuildFile; fileRef = AEB9809723F87291005AC993 /* AgendaWebContatoTodos.php */; };
+		AEB9809E23F87310005AC993 /* ScripBanco.sql in Sources */ = {isa = PBXBuildFile; fileRef = AEB9809D23F87310005AC993 /* ScripBanco.sql */; };
+		AEB980A123F874B7005AC993 /* ROTAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980A023F874B7005AC993 /* ROTAS.swift */; };
+		AEB980A423F8759F005AC993 /* UtilString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980A323F8759F005AC993 /* UtilString.swift */; };
+		AEB980A723F87600005AC993 /* Conexao.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980A623F875FF005AC993 /* Conexao.swift */; };
+		AEB980AA23F87749005AC993 /* Contato.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980A923F87749005AC993 /* Contato.swift */; };
+		AEB980AD23F877A5005AC993 /* ContatoResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980AC23F877A5005AC993 /* ContatoResult.swift */; };
+		AEB980B023F877D6005AC993 /* ContatoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980AF23F877D6005AC993 /* ContatoDao.swift */; };
+		AEB980B323F8791F005AC993 /* UtilAlerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980B123F8791F005AC993 /* UtilAlerta.swift */; };
+		AEB980B423F8791F005AC993 /* UtilAppDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980B223F8791F005AC993 /* UtilAppDelegateViewController.swift */; };
+		AEB980B823F87990005AC993 /* FormularioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB980B623F87990005AC993 /* FormularioViewController.xib */; };
+		AEB980B923F87990005AC993 /* FormularioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980B723F87990005AC993 /* FormularioViewController.swift */; };
+		AEB980BC23F87B5A005AC993 /* TodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980BA23F87B5A005AC993 /* TodosViewController.swift */; };
+		AEB980BD23F87B5A005AC993 /* TodosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB980BB23F87B5A005AC993 /* TodosViewController.xib */; };
+		AEB980C123F87B79005AC993 /* ContatoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB980BF23F87B79005AC993 /* ContatoTableViewCell.xib */; };
+		AEB980C223F87B79005AC993 /* ContatoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB980C023F87B79005AC993 /* ContatoTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEB9807B23F8687A005AC993 /* Projeto 21 - WebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto 21 - WebService.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB9807E23F8687A005AC993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEB9808223F8687A005AC993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEB9808523F8687A005AC993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB9808723F8687D005AC993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEB9808A23F8687D005AC993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEB9808C23F8687D005AC993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB9809323F87290005AC993 /* AgendaWebContatoExcluir.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = AgendaWebContatoExcluir.php; sourceTree = "<group>"; };
+		AEB9809423F87291005AC993 /* AgendaWebContatoInserir.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = AgendaWebContatoInserir.php; sourceTree = "<group>"; };
+		AEB9809523F87291005AC993 /* AgendaWebContatoBuscar.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = AgendaWebContatoBuscar.php; sourceTree = "<group>"; };
+		AEB9809623F87291005AC993 /* AgendaWebContatoAtualizar.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = AgendaWebContatoAtualizar.php; sourceTree = "<group>"; };
+		AEB9809723F87291005AC993 /* AgendaWebContatoTodos.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = AgendaWebContatoTodos.php; sourceTree = "<group>"; };
+		AEB9809D23F87310005AC993 /* ScripBanco.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = ScripBanco.sql; sourceTree = "<group>"; };
+		AEB980A023F874B7005AC993 /* ROTAS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROTAS.swift; sourceTree = "<group>"; };
+		AEB980A323F8759F005AC993 /* UtilString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilString.swift; sourceTree = "<group>"; };
+		AEB980A623F875FF005AC993 /* Conexao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conexao.swift; sourceTree = "<group>"; };
+		AEB980A923F87749005AC993 /* Contato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contato.swift; sourceTree = "<group>"; };
+		AEB980AC23F877A5005AC993 /* ContatoResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatoResult.swift; sourceTree = "<group>"; };
+		AEB980AF23F877D6005AC993 /* ContatoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatoDao.swift; sourceTree = "<group>"; };
+		AEB980B123F8791F005AC993 /* UtilAlerta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilAlerta.swift; sourceTree = "<group>"; };
+		AEB980B223F8791F005AC993 /* UtilAppDelegateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilAppDelegateViewController.swift; sourceTree = "<group>"; };
+		AEB980B623F87990005AC993 /* FormularioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormularioViewController.xib; sourceTree = "<group>"; };
+		AEB980B723F87990005AC993 /* FormularioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormularioViewController.swift; sourceTree = "<group>"; };
+		AEB980BA23F87B5A005AC993 /* TodosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosViewController.swift; sourceTree = "<group>"; };
+		AEB980BB23F87B5A005AC993 /* TodosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodosViewController.xib; sourceTree = "<group>"; };
+		AEB980BF23F87B79005AC993 /* ContatoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContatoTableViewCell.xib; sourceTree = "<group>"; };
+		AEB980C023F87B79005AC993 /* ContatoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatoTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB9807823F8687A005AC993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB9807223F8687A005AC993 = {
+			isa = PBXGroup;
+			children = (
+				AEB9807D23F8687A005AC993 /* Projeto 21 - WebService */,
+				AEB9807C23F8687A005AC993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB9807C23F8687A005AC993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB9807B23F8687A005AC993 /* Projeto 21 - WebService.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB9807D23F8687A005AC993 /* Projeto 21 - WebService */ = {
+			isa = PBXGroup;
+			children = (
+				AEB980B523F87966005AC993 /* View */,
+				AEB980AE23F877CA005AC993 /* Controller */,
+				AEB980AB23F87765005AC993 /* Result */,
+				AEB980A823F87725005AC993 /* Entidade */,
+				AEB980A523F875F2005AC993 /* Conexao */,
+				AEB980A223F87516005AC993 /* Util */,
+				AEB9809F23F8749A005AC993 /* ENUM */,
+				AEB9809223F8688C005AC993 /* Server Side */,
+				AEB9807E23F8687A005AC993 /* AppDelegate.swift */,
+				AEB9808223F8687A005AC993 /* ViewController.swift */,
+				AEB9808423F8687A005AC993 /* Main.storyboard */,
+				AEB9808723F8687D005AC993 /* Assets.xcassets */,
+				AEB9808923F8687D005AC993 /* LaunchScreen.storyboard */,
+				AEB9808C23F8687D005AC993 /* Info.plist */,
+			);
+			path = "Projeto 21 - WebService";
+			sourceTree = "<group>";
+		};
+		AEB9809223F8688C005AC993 /* Server Side */ = {
+			isa = PBXGroup;
+			children = (
+				AEB9809623F87291005AC993 /* AgendaWebContatoAtualizar.php */,
+				AEB9809523F87291005AC993 /* AgendaWebContatoBuscar.php */,
+				AEB9809323F87290005AC993 /* AgendaWebContatoExcluir.php */,
+				AEB9809423F87291005AC993 /* AgendaWebContatoInserir.php */,
+				AEB9809723F87291005AC993 /* AgendaWebContatoTodos.php */,
+				AEB9809D23F87310005AC993 /* ScripBanco.sql */,
+			);
+			path = "Server Side";
+			sourceTree = "<group>";
+		};
+		AEB9809F23F8749A005AC993 /* ENUM */ = {
+			isa = PBXGroup;
+			children = (
+				AEB980A023F874B7005AC993 /* ROTAS.swift */,
+			);
+			path = ENUM;
+			sourceTree = "<group>";
+		};
+		AEB980A223F87516005AC993 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AEB980B123F8791F005AC993 /* UtilAlerta.swift */,
+				AEB980B223F8791F005AC993 /* UtilAppDelegateViewController.swift */,
+				AEB980A323F8759F005AC993 /* UtilString.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AEB980A523F875F2005AC993 /* Conexao */ = {
+			isa = PBXGroup;
+			children = (
+				AEB980A623F875FF005AC993 /* Conexao.swift */,
+			);
+			path = Conexao;
+			sourceTree = "<group>";
+		};
+		AEB980A823F87725005AC993 /* Entidade */ = {
+			isa = PBXGroup;
+			children = (
+				AEB980A923F87749005AC993 /* Contato.swift */,
+			);
+			path = Entidade;
+			sourceTree = "<group>";
+		};
+		AEB980AB23F87765005AC993 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				AEB980AC23F877A5005AC993 /* ContatoResult.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		AEB980AE23F877CA005AC993 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEB980AF23F877D6005AC993 /* ContatoDao.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEB980B523F87966005AC993 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEB980BE23F87B6A005AC993 /* Cell */,
+				AEB980BA23F87B5A005AC993 /* TodosViewController.swift */,
+				AEB980BB23F87B5A005AC993 /* TodosViewController.xib */,
+				AEB980B723F87990005AC993 /* FormularioViewController.swift */,
+				AEB980B623F87990005AC993 /* FormularioViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEB980BE23F87B6A005AC993 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AEB980C023F87B79005AC993 /* ContatoTableViewCell.swift */,
+				AEB980BF23F87B79005AC993 /* ContatoTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB9807A23F8687A005AC993 /* Projeto 21 - WebService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB9808F23F8687D005AC993 /* Build configuration list for PBXNativeTarget "Projeto 21 - WebService" */;
+			buildPhases = (
+				AEB9807723F8687A005AC993 /* Sources */,
+				AEB9807823F8687A005AC993 /* Frameworks */,
+				AEB9807923F8687A005AC993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Projeto 21 - WebService";
+			productName = "Projeto 21 - WebService";
+			productReference = AEB9807B23F8687A005AC993 /* Projeto 21 - WebService.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB9807323F8687A005AC993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Master Mac";
+				TargetAttributes = {
+					AEB9807A23F8687A005AC993 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = AEB9807623F8687A005AC993 /* Build configuration list for PBXProject "Projeto 21 - WebService" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB9807223F8687A005AC993;
+			productRefGroup = AEB9807C23F8687A005AC993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB9807A23F8687A005AC993 /* Projeto 21 - WebService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB9807923F8687A005AC993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB980BD23F87B5A005AC993 /* TodosViewController.xib in Resources */,
+				AEB9809923F87291005AC993 /* AgendaWebContatoInserir.php in Resources */,
+				AEB9808B23F8687D005AC993 /* LaunchScreen.storyboard in Resources */,
+				AEB9809A23F87291005AC993 /* AgendaWebContatoBuscar.php in Resources */,
+				AEB980B823F87990005AC993 /* FormularioViewController.xib in Resources */,
+				AEB9808823F8687D005AC993 /* Assets.xcassets in Resources */,
+				AEB9808623F8687A005AC993 /* Main.storyboard in Resources */,
+				AEB980C123F87B79005AC993 /* ContatoTableViewCell.xib in Resources */,
+				AEB9809823F87291005AC993 /* AgendaWebContatoExcluir.php in Resources */,
+				AEB9809C23F87291005AC993 /* AgendaWebContatoTodos.php in Resources */,
+				AEB9809B23F87291005AC993 /* AgendaWebContatoAtualizar.php in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB9807723F8687A005AC993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB980B323F8791F005AC993 /* UtilAlerta.swift in Sources */,
+				AEB980AA23F87749005AC993 /* Contato.swift in Sources */,
+				AEB980BC23F87B5A005AC993 /* TodosViewController.swift in Sources */,
+				AEB980C223F87B79005AC993 /* ContatoTableViewCell.swift in Sources */,
+				AEB980A723F87600005AC993 /* Conexao.swift in Sources */,
+				AEB980A423F8759F005AC993 /* UtilString.swift in Sources */,
+				AEB9808323F8687A005AC993 /* ViewController.swift in Sources */,
+				AEB9809E23F87310005AC993 /* ScripBanco.sql in Sources */,
+				AEB980A123F874B7005AC993 /* ROTAS.swift in Sources */,
+				AEB9807F23F8687A005AC993 /* AppDelegate.swift in Sources */,
+				AEB980B023F877D6005AC993 /* ContatoDao.swift in Sources */,
+				AEB980B923F87990005AC993 /* FormularioViewController.swift in Sources */,
+				AEB980AD23F877A5005AC993 /* ContatoResult.swift in Sources */,
+				AEB980B423F8791F005AC993 /* UtilAppDelegateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEB9808423F8687A005AC993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB9808523F8687A005AC993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB9808923F8687D005AC993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB9808A23F8687D005AC993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB9808D23F8687D005AC993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEB9808E23F8687D005AC993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB9809023F8687D005AC993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Projeto 21 - WebService/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Professor-Aecio.Projeto-21---WebService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEB9809123F8687D005AC993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Projeto 21 - WebService/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Professor-Aecio.Projeto-21---WebService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB9807623F8687A005AC993 /* Build configuration list for PBXProject "Projeto 21 - WebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB9808D23F8687D005AC993 /* Debug */,
+				AEB9808E23F8687D005AC993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB9808F23F8687D005AC993 /* Build configuration list for PBXNativeTarget "Projeto 21 - WebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB9809023F8687D005AC993 /* Debug */,
+				AEB9809123F8687D005AC993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB9807323F8687A005AC993 /* Project object */;
+}
